@@ -81,7 +81,7 @@ class BokehChart:
         axe_opts = [ { k:v[i] for k,v in opts.items() if k not in fig_opts }
                      for i in range(len(lines)) ]
 
-        p = bokeh.plotting.Figure(**fig_opts)
+        p = bokeh.plotting.figure(**fig_opts)
         p.grid.grid_line_alpha = 0.5
         p.toolbar.logo = None
 
