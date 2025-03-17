@@ -1,3 +1,5 @@
+2025/03/17 (1.1.5-cf20)
+* changed Figure to figure in vds1022.py
 
 2022/10/23 (1.1.5-cf19)
 * upgraded to official release v1.1.5 (spanish translation, new firmware for VDS2052)
